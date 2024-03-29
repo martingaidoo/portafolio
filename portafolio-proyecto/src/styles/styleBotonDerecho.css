@@ -1,0 +1,41 @@
+.container__Boton__Derecho{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin:1rem;
+}
+
+.boton__Derecho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background-color: #f0f0f0;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.boton__Derecho:hover{
+    background-color: #a8a8a8;
+    border-radius: 1rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.boton__Derecho img{
+    width: 2rem;
+    height: 2rem;
+}
+.boton__Derecho label{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    width: 3rem;
+    height: 1rem;
+}

@@ -1,0 +1,30 @@
+.container__Info__Izquierda{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto auto; 
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: 1rem;
+}
+
+.container__Info__Izquierda h5 {
+    margin: 0;
+    text-align: left;
+    grid-column: 2 / 3; /* Esto coloca el elemento en la primera columna */
+    grid-row: 1 / 2; /* Esto coloca el elemento en la primera fila */
+
+}
+.container__Info__Izquierda label {
+    text-align: left;
+    grid-column: 2 / 3; /* Esto coloca el elemento en la primera columna */
+    grid-row: 2 / 3; /* Esto coloca el elemento en la primera fila */
+}
+
+
+.container__Info__Izquierda img{
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+    grid-column: 1 / 2; /* Esto coloca el elemento en la primera columna */
+    grid-row: 1 / 3;
+}

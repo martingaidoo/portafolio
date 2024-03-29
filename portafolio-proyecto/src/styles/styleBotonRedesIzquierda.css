@@ -1,0 +1,28 @@
+.container__redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.button {
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #d4d4d4;
+    outline: 3px #787878 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    margin: 1rem;
+  }
+  .button svg path {
+    transition: 400ms;
+  }
+  .button:hover {
+    background-color: transparent;
+  }
+  .button:hover svg path {
+    fill: #1f1e1e81;
+  }
