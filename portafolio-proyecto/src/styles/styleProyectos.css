@@ -1,0 +1,51 @@
+.componentProyectos .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 1rem;
+  }
+  
+  .componentProyectos  .cards .red {
+    background-color: #f43f5e;
+  }
+  
+  .componentProyectos  .cards .white {
+    background-color: #f8f8f8;
+    color: black;
+  }
+  
+  .componentProyectos  .cards .blue {
+    background-color: #3b22c5;
+  }
+  
+  .componentProyectos  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+    color: rgb(1, 1, 1);
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .componentProyectos  .cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .componentProyectos  .cards .card p.second-text {
+    font-size: .7em;
+  }
+  
+  .componentProyectos  .cards .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .componentProyectos  .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }

@@ -5,7 +5,7 @@
     align-items: center;
 
 }
-.button {
+.buttonRedes {
     padding: 10px 15px;
     gap: 15px;
     background-color: #d4d4d4;
@@ -15,14 +15,14 @@
     border: none;
     cursor: pointer;
     transition: 400ms;
-    margin: 1rem;
+    margin: 0.5rem 1rem;
   }
-  .button svg path {
+  .buttonRedes svg path {
     transition: 400ms;
   }
-  .button:hover {
+  .buttonRedes:hover {
     background-color: transparent;
   }
-  .button:hover svg path {
+  .buttonRedes:hover svg path {
     fill: #1f1e1e81;
   }

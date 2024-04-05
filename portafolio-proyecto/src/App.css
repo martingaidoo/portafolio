@@ -1,11 +1,6 @@
-body{
-  background-image: url("./assets/fondo.jpeg");
-  background-size:cover;
-  background-repeat: no-repeat;
-}
-
 .container {
   display: flex; /* Contenedor flex */
   flex-direction: row; /* Acomodar los divs en una fila */
   justify-content: space-around; /* Distribuir el espacio alrededor de los divs */
 }
+

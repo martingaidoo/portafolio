@@ -2,9 +2,11 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto auto; 
-    background-color: #f0f0f0;
+    background-color: #ececec;
     border: 1px solid #ccc;
-    margin: 1rem;
+    margin: 0.2rem 1rem;
+    padding: 0.3rem;
+    border-radius: 1rem;
 }
 
 .container__Info__Izquierda h5 {
@@ -12,12 +14,15 @@
     text-align: left;
     grid-column: 2 / 3; /* Esto coloca el elemento en la primera columna */
     grid-row: 1 / 2; /* Esto coloca el elemento en la primera fila */
-
+    margin-left: 0.5rem;
 }
 .container__Info__Izquierda label {
     text-align: left;
     grid-column: 2 / 3; /* Esto coloca el elemento en la primera columna */
     grid-row: 2 / 3; /* Esto coloca el elemento en la primera fila */
+    word-break: break-all; /* Esto hace que las palabras se dividan al final de la línea */
+    margin-left: 0.5rem;
+
 }
 
 

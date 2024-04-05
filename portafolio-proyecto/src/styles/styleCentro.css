@@ -1,6 +1,6 @@
 .componente__Centro{
     width: 60rem;
-    height: 50rem;
+    height:fit-content;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     margin: 10px;
